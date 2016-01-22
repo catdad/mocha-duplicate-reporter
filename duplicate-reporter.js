@@ -17,9 +17,12 @@ function DuplicateReporter(runner) {
     
     function onEnd() {
         var duplicateList = Object.keys(duplicates);
+        var total = passes + failures;
         
         console.log('');
-        console.log('%d total tests: \n   %d passed \n   %d failed \n   %d duplicate names', passes + failures, passes, failures, duplicateList.length);
+        console.log('Regex report: %d-%d-%d-%d', total, passes, failures, duplicateList.length);
+        console.log('');
+        console.log('%d total tests: \n   %d passed \n   %d failed \n   %d duplicate names', total, passes, failures, duplicateList.length);
         
         if (duplicateList.length) {
             console.log('');
