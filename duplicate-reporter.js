@@ -25,6 +25,7 @@ function DuplicateReporter(runner) {
             console.log('');
             console.log('Duplicate test names:');
             console.log(Object.keys(duplicates).join('\n'));
+            console.log('');
         }
         
         process.exit(failures);
@@ -33,13 +34,11 @@ function DuplicateReporter(runner) {
     runner.on('pass', function (test) {
         passes++;
         onTestComplete(test.fullTitle());
-        // console.log('pass: %s', test.fullTitle());
     });
 
     runner.on('fail', function (test, err) {
         failures++;
         onTestComplete(test.fullTitle());
-        // console.log('fail: %s -- error: %s', test.fullTitle(), err.message);
     });
 
     runner.on('end', function () {
