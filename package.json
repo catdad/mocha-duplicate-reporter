@@ -1,0 +1,19 @@
+{
+  "name": "mocha-duplicate-reporter",
+  "version": "0.1.0",
+  "main": "duplicate-reporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kiril Vatev <vatev.1@gmail.com>",
+  "license": "ISC",
+  "description": "Finds mocha tests that use the exact same full name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catdad/mocha-duplicate-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catdad/mocha-duplicate-reporter/issues"
+  },
+  "homepage": "https://github.com/catdad/mocha-duplicate-reporter#readme"
+}
