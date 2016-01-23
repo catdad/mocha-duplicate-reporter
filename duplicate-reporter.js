@@ -1,3 +1,5 @@
+/* jshint node: true */
+
 module.exports = DuplicateReporter;
 
 function DuplicateReporter(runner) {
