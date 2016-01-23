@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/catdad/mocha-duplicate-reporter/issues"
   },
-  "homepage": "https://github.com/catdad/mocha-duplicate-reporter#readme"
+  "homepage": "https://github.com/catdad/mocha-duplicate-reporter#readme",
+  "dependencies": {}
 }
