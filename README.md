@@ -13,20 +13,22 @@ Mocha seems perfectly content to let you create multiple tests that share the sa
 ## Output
 
 ```
-Regex report: 794-790-0-4-5
+Regex report: 9-8-0-1-4
 
-794 total tests:
-   790 passed
+9 total tests:
+   8 passed
    0 failed
-   5 pending
+   1 pending
    4 duplicate names
 
 Duplicate test names:
-Super vague name for a test
-Test obviously written in a loop
-Test the same thing over and over
-Forks forks forks
+[Example] is obviously written in a loop
+[Example] tests the same thing over and over
+[Example] performs a vague action
+[Example] forks forks forks
 ```
+
+Run `npm test` on the repo to see the original test file that produces this output.
 
 ## Just in case you want to automate this
 
