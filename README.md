@@ -1,5 +1,13 @@
 # Mocha Duplicate Reporter
 
+[![Build Status](https://travis-ci.org/catdad/mocha-duplicate-reporter.svg?branch=master)](https://travis-ci.org/catdad/mocha-duplicate-reporter)
+[![Code Climate](https://codeclimate.com/github/catdad/mocha-duplicate-reporter/badges/gpa.svg)](https://codeclimate.com/github/catdad/mocha-duplicate-reporter)
+[![Downloads][7]][8] [![Version][9]][8]
+
+[7]: https://img.shields.io/npm/dm/mocha-duplicate-reporter.svg
+[8]: https://www.npmjs.com/package/mocha-duplicate-reporter
+[9]: https://img.shields.io/npm/v/mocha-duplicate-reporter.svg
+
 Mocha seems perfectly content to let you create multiple tests that share the same name, but some CIs (_caugh_ Teamcity _caugh_) are not so happy. They will just refuse to acknowledge the duplicates, and you are stuck wondering why your CI reports 7 test less than you are seeing locally. Once you build up a large enough test suite, it's pretty hard to figure out what the offending tests are. Well, no more! Use this quick reporter and see who those pesky bastards are.
 
 ## Install
