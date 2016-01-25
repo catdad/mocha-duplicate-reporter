@@ -12,7 +12,7 @@ Mocha seems perfectly content to let you create multiple tests that share the sa
 
 ## Install
 
-    npm install -save-dev mocha-duplicate-reporter
+    npm install --save-dev mocha-duplicate-reporter
     
 ## Usage
 
